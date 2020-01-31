@@ -12,4 +12,4 @@
   1. First [Signup](https://github.com/) for a Github account.
   2. Get [TortoiseGit](https://tortoisegit.org/)  installed in your system.
   3. Install [PuttY](https://www.putty.org/) which can br used for key generation.
-  4.[Visualstudio](https://visualstudio.microsoft.com/) is used create index.txt file.
+  4. [Visualstudio](https://visualstudio.microsoft.com/) is used create index.txt file.
