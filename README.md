@@ -9,6 +9,7 @@
     This repository created is helpful to mainly understand about pull and push on local machine and cloud .This helps us to get good command over the push and pull concepts.
 
  ## Recommended Tools
-  1. First [Signup](https://github.com/) for a Github account
-  2. Get [TortoiseGit](https://tortoisegit.org/)  installed in your system
+  1. First [Signup](https://github.com/) for a Github account.
+  2. Get [TortoiseGit](https://tortoisegit.org/)  installed in your system.
+  3. Install [PuttY](https://www.putty.org/) which can br used for key generation.
      
