@@ -11,26 +11,26 @@
 
       } 
       nav{
-        width: 100%;
+        width: 80%;
         display: flex;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:Sans-serif;
     }
     nav .navLinks {
         flex-basis: 80%;
         display: inline-flex;
         list-style: none;
-        justify-content: space-evenly;
+        
         text-align: left;
         align-items: left;
     }
     nav ul li {
         display: inline-block;
         padding: 10px;
-        background-color:lightgreen;
+        background-color:lightsteelblue;
         flex-basis: 26%;
     }
     li a {
-        color:Black;
+        color:black;
         text-decoration: none;
         font-size: 24px;
     }
@@ -53,17 +53,9 @@
       background-color:lightgoldenrodyellow;
   }
   
-  .main {
-      height: 97vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      text-align: center;
-  }
   
   h1 {
-      font: size 22;;
+      font: size 22;
       color:lightslategrey;
   }
   
@@ -72,8 +64,5 @@
       color:blue;
   }
   
-  li {
-      list-style-type: none; 
-  }
-  
+ 
  
