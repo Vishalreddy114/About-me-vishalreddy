@@ -11,28 +11,41 @@
 </nav> 
 <body>
   
-<h2 style="font-size: 20px;">Celcius to Fahrenheit conversion</h2>
+  <main style="text-align: center;">
+    <h2>LCM of numbers</h2>
+   <h3>Enter first Number :</h3>  <input id="c" type="Number" placeholder="First Number">
+</br>
+</br>
 
-<p style="font-size: 20px;">Insert a number into one of the input fields below: </p>
+   <h3>Enter Second NUmber :</h3>  <input id="c" type="Number" placeholder="Second Number">
+</br>
+</br>
 
-<p style="font-size: 20px;"><input id="c" onkeyup="convert('C')"> degrees Celsius</p>
+<h3>Enter Third NUmber :</h3>  <input id="c" type="Number" placeholder="Third Number">
+</br>
 
-<p style="font-size: 20px;"><input id="f" onkeyup="convert('F')"> degrees Fahrenheit</p> 
-
-
+</br>
+<button type="button" id="convert" onclick="convertkms()">Sum</button>
+</br>
+<h3>Result  :</h3><input type="Number" id="d">
+</br>  
+    
+</main> 
 
 <script>
-function convert(degree) {
-  var x;
-  if (degree == "C") {
-    x = document.getElementById("c").value * 9 / 5 + 32;
-    document.getElementById("f").value = Math.round(x);
-  } else {
-    x = (document.getElementById("f").value -32) * 5 / 9;
-    document.getElementById("c").value = Math.round(x);
-  }
-}
+    function convertkms() {
+        if (document.getElementById("c").value != " ") {
+        var f = document.getElementById("c").value * 1.6;
+          document.getElementById("d").value = Math.round(f);
+        } else {
+          
+          document.getElementById("d").value = "please enter the miles in above textbox";
+        }
+      }
 </script>
-
+<hr>
+<footer>
+    <p>&copy; 2020 Vishal Reddy Vennavaram</p>
+</footer>
 </body>
 </html>
